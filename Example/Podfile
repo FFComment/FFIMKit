@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFIMKit_Example' do
+  pod 'FFIMKit', :path => '../'
+
+  target 'FFIMKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
