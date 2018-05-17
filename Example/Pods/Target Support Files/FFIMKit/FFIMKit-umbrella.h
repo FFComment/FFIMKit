@@ -47,7 +47,6 @@
 #import "SMPageControl.h"
 #import "EAMMessageListTableViewCell.h"
 #import "EAMMessageListViewController.h"
-#import "FFIMKit.h"
 #import "MessageInterface.h"
 #import "PublicDefine.h"
 
