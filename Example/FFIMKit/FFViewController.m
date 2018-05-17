@@ -7,6 +7,7 @@
 //
 
 #import "FFViewController.h"
+#import <FFIMKit/EAMMesageChatVC.h>
 
 @interface FFViewController ()
 
@@ -17,9 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 50, 100);
+    btn.center = self.view.center;
+    btn.backgroundColor = [UIColor blueColor];
+    [btn setTitle:@"聊天" forState:UIControlStateNormal];
+    [btn  setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(pushVC:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+- (void)pushVC:(UIButton *)sender {
+    EAMMesageChatVC* vc = [[EAMMesageChatVC alloc]init];
+    vc.title = @"聊天";
+//    [self.navigationController pushViewController:vc animated:YES];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

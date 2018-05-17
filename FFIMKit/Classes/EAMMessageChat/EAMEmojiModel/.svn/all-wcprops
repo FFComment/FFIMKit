@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel
+END
+EAMCommentEmoji.h
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMCommentEmoji.h
+END
+EAMEmojiTextAttachment.m
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMEmojiTextAttachment.m
+END
+EAMCommentEmoji.m
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMCommentEmoji.m
+END
+EAMEmojiConvertToString.h
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMEmojiConvertToString.h
+END
+EAMEmojiObj.h
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMEmojiObj.h
+END
+EAMChatEmojiIcons.h
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMChatEmojiIcons.h
+END
+EAMEmojiTextAttachment.h
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMEmojiTextAttachment.h
+END
+EAMEmojiConvertToString.m
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMEmojiConvertToString.m
+END
+EAMEmojiObj.m
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMEmojiObj.m
+END
+EAMChatEmojiIcons.m
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/EAMMessageChat/EAMEmojiModel/EAMChatEmojiIcons.m
+END

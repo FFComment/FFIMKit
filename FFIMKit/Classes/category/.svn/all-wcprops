@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category
+END
+UIImage+Category.h
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/UIImage+Category.h
+END
+LocalImageHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/LocalImageHelper.h
+END
+UIImage+Category.m
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/UIImage+Category.m
+END
+UIView+Category.h
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/UIView+Category.h
+END
+LocalImageHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/LocalImageHelper.m
+END
+UIView+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/UIView+ViewController.h
+END
+UIView+Category.m
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/UIView+Category.m
+END
+UIView+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/svnbak/!svn/ver/105380/development_library/anhui/anhui_educloud/ios_modulization/MessageKit/edu_anhui_messageKit/edu_anhui_messageKit/category/UIView+ViewController.m
+END
