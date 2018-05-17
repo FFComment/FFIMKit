@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
       'FFIMKit' => ['FFIMKit/Assets/**/*']
   }
-   s.public_header_files = 'Pod/Classes/**/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'YYText'
    s.dependency 'SDWebImage'
