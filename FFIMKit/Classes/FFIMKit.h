@@ -1,14 +1,13 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
+//
+//  FFIMKit.h
+//  Pods
+//
+//  Created by Sunny_zhao on 2018/5/17.
+//
+
+#ifndef FFIMKit_h
+#define FFIMKit_h
+
 
 #import "EABTabLoadContext.h"
 #import "EABTabIconDelegate.h"
@@ -47,10 +46,8 @@
 #import "SMPageControl.h"
 #import "EAMMessageListTableViewCell.h"
 #import "EAMMessageListViewController.h"
-#import "FFIMKit.h"
 #import "MessageInterface.h"
 #import "PublicDefine.h"
 
-FOUNDATION_EXPORT double FFIMKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char FFIMKitVersionString[];
 
+#endif /* FFIMKit_h */

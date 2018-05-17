@@ -7,10 +7,12 @@
 //
 
 #import "EAMMessageListTableViewCell.h"
-#import <FFIMKit/FFIMKit-umbrella.h>
-#import <SDWebImage/UIImageView+WebCache.h>
-#import <SDWebImage/UIImage+GIF.h>
-
+//#import <FFIMKit/FFIMKit-umbrella.h>
+//#import <SDWebImage/UIImageView+WebCache.h>
+//#import <SDWebImage/UIImage+GIF.h>
+#import "FFIMKit.h"
+#import "UIImageView+WebCache.h"
+#import "UIImage+GIF.h"
 @interface EAMMessageListTableViewCell()
 @property(nonatomic,strong)UIImageView* icon;
 @property(nonatomic,strong)UILabel*     titleLabel;

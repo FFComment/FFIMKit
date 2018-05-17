@@ -211,16 +211,19 @@
                 DLog(@"error :%@", error.description);
             }
             dispatch_async(dispatch_get_main_queue(), ^{
-                cancelledDeleteCompletion(error);
+//                cancelledDeleteCompletion(error);
+                cancelledDeleteCompletion();
             });
         } else {
             dispatch_async(dispatch_get_main_queue(), ^{
-                cancelledDeleteCompletion(nil);
+//                cancelledDeleteCompletion(nil);
+                cancelledDeleteCompletion();
             });
         }
     } else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            cancelledDeleteCompletion(nil);
+//            cancelledDeleteCompletion(nil);
+            cancelledDeleteCompletion();
         });
     }
 }
@@ -230,15 +233,15 @@
         return;
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        [_recorder updateMeters];
+        [self.recorder updateMeters];
         
-        self.currentTimeInterval = _recorder.currentTime;
+        self.currentTimeInterval = self.recorder.currentTime;
         
         if (!_isPause) {
             float progress = self.currentTimeInterval / self.maxRecordTime * 1.0;
             dispatch_async(dispatch_get_main_queue(), ^{
-                if (_recordProgress) {
-                    _recordProgress(progress);
+                if (self.recordProgress) {
+                    self.recordProgress(progress);
                 }
             });
         }
@@ -248,14 +251,14 @@
                 [[NSNotificationCenter defaultCenter]postNotificationName:@"recordHUDBeginCutdown" object:nil];
             });
         }
-        float peakPower = [_recorder averagePowerForChannel:0];
+        float peakPower = [self.recorder averagePowerForChannel:0];
         double ALPHA = 0.015;
         double peakPowerForChannel = pow(10, (ALPHA * peakPower));
         
         dispatch_async(dispatch_get_main_queue(), ^{
             // 更新扬声器
-            if (_peakPowerForChannel) {
-                _peakPowerForChannel(peakPowerForChannel);
+            if (self.peakPowerForChannel) {
+                self.peakPowerForChannel(peakPowerForChannel);
             }
         });
         
@@ -263,7 +266,7 @@
         if (self.currentTimeInterval > self.maxRecordTime) {
             [self stopRecord];
             dispatch_async(dispatch_get_main_queue(), ^{
-                _maxTimeStopRecorderCompletion();
+                self.maxTimeStopRecorderCompletion();
             });
         }
     });

@@ -9,7 +9,8 @@
 #import "EAMMessageListViewController.h"
 #import "EAMMessageListTableViewCell.h"
 #import "EAMMesageChatVC.h"
-#import <FFIMKit/FFIMKit-umbrella.h>
+//#import <FFIMKit/FFIMKit-umbrella.h>
+#import "FFIMKit.h"
 
 static const CGFloat kEAMTableCellHeight = 60.0;
 

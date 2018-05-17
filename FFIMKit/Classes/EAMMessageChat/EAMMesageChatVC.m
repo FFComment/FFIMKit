@@ -14,7 +14,6 @@
 #import "EAMVoiceRecordHUD.h"
 #import "PublicDefine.h"
 #import "LocalImageHelper.h"
-
 #define duration 0.25f
 @interface EAMMesageChatVC () <UITableViewDelegate,UITableViewDataSource,UINavigationControllerDelegate,UIImagePickerControllerDelegate,EAMChatKeyBoardViewDelegate>
 

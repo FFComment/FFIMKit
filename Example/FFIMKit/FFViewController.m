@@ -7,7 +7,7 @@
 //
 
 #import "FFViewController.h"
-#import <FFIMKit/EAMMesageChatVC.h>
+#import <FFIMKit/FFIMKit-umbrella.h>
 
 @interface FFViewController ()
 

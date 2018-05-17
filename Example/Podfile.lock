@@ -1,5 +1,5 @@
 PODS:
-  - FFIMKit (1.0.1):
+  - FFIMKit (1.0.2):
     - SDWebImage
     - YYText
   - SDWebImage (4.3.3):
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFIMKit: 04f4de5d3a9e23020da6edc2e8ca09d402c2b49f
+  FFIMKit: 6b75e72a81f33c455a3203008f5c70cb1c851a10
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 

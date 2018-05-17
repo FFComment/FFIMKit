@@ -8,7 +8,8 @@
 
 #import "MessageInterface.h"
 #import "EAMMessageListViewController.h"
-#import <FFIMKit/FFIMKit-umbrella.h>
+//#import <FFIMKit/FFIMKit-umbrella.h>
+#import "FFIMKit.h"
 
 @interface MessageInterface()<EABTabIconDelegate>
 
