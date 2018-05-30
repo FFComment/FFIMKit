@@ -12,8 +12,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+    
+    self.m_allMessagesCallback = ^(id result, id error) {
+        
+        if([result isKindOfClass:[VwtIMMessage class]]){//vwt提供的im通道消息
+            
+            
+        }else if([result isKindOfClass:[VwtServicePush class]]){//vwt提供的push通道消息
+            
+            
+        }else if([result isKindOfClass:[VwtError class]]){
+            VwtError *vwtRet = (VwtError *)result;
+            if(vwtRet.code == VWT_LOGIN_SUCCESS){//登录(重连)成功,获取离线消息
+                NSLog(@"MessagesCallback-->%@",@"登录成功");
+                //[self getOfflineMsg];
+            }else if (vwtRet.code == VWT_KICKED_OUT){//被踢
+                
+            }else if (vwtRet.code == VWT_NOT_LOGIN){//你尚未登录,请先登录
+                
+            }else{//一分钟后尝试重连
+                
+            }
+        }else if([result isKindOfClass:[NSDictionary class]]){//点击通知栏获取到的数据,可根据需要处理
+            
+            
+        }else{
+            
+        }
+    };
+    
+    
+//    return YES;
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -43,4 +73,9 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    
+    [super application:app didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+}
 @end

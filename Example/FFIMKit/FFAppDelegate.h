@@ -7,9 +7,9 @@
 //
 
 @import UIKit;
+#import "LinkagePushUIApplication.h"
+@interface FFAppDelegate : LinkagePushUIApplication //<UIApplicationDelegate>
 
-@interface FFAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+//@property (strong, nonatomic) UIWindow *window;
 
 @end
