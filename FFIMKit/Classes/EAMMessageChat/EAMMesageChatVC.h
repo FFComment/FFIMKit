@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XZGroup.h"
 
+@protocol EAMMesageChatVCDelegate <NSObject>
+
+/**  发送消息 */
+- (void)chatVCSendMessage:(NSString *)message;
+
+@end
 @interface EAMMesageChatVC : UIViewController
+
+@property (nonatomic, strong) XZGroup *group;
+@property (nonatomic, weak) id<EAMMesageChatVCDelegate> delegate;
 
 @end

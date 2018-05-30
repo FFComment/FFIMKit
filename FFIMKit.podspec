@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFIMKit'
-  s.version          = '1.0.3'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of FFIMKit.'
 
 # This description is used to generate tags and improve search results.
@@ -43,4 +43,9 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'YYText'
    s.dependency 'SDWebImage'
+   s.dependency 'RegexKitLite'
+   s.dependency 'Masonry'
+   s.dependency 'MJExtension'
+   
+   
 end
