@@ -401,8 +401,9 @@
     recordManager.playDelegate = self;
     // 文件路径
     NSString *voicePath = [self mediaPath:messageFrame.model.mediaPath];
-    NSString *amrPath   = [[voicePath stringByDeletingPathExtension] stringByAppendingPathExtension:@"amr"];
-    [VoiceConverter ConvertAmrToWav:amrPath wavSavePath:voicePath];
+    // 文件格式转换
+//    NSString *amrPath   = [[voicePath stringByDeletingPathExtension] stringByAppendingPathExtension:@"amr"];
+//    [VoiceConverter ConvertAmrToWav:amrPath wavSavePath:voicePath];
     if (messageFrame.model.message.status == 0){
         messageFrame.model.message.status = 1;
         redView.hidden = YES;

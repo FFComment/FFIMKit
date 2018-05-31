@@ -15,7 +15,7 @@
 #import "ICVideoManager.h"
 #import "ICFileTool.h"
 #import "NSDate+Extension.h"
-#import "VoiceConverter.h"
+//#import "VoiceConverter.h"
 #import "FF_BoundlePath.h"
 
 #define lastUpdateKey [NSString stringWithFormat:@"%@-%@",[ICUser currentUser].eId,@"LastUpdate"]

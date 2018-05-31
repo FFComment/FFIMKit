@@ -8,7 +8,7 @@
 
 #import "ICRecordManager.h"
 #import "ICFileTool.h"
-#import "VoiceConverter.h"
+//#import "VoiceConverter.h"
 #import "XZConstants.h"
 
 #define kChildPath @"Chat/Recoder"
@@ -192,8 +192,8 @@
 {
     NSString *recordPath = [[_recorder url] path];
     // 音频转换
-    NSString *amrPath = [[recordPath stringByDeletingPathExtension] stringByAppendingPathExtension:kAmrType];
-    [VoiceConverter ConvertWavToAmr:recordPath amrSavePath:amrPath];
+//    NSString *amrPath = [[recordPath stringByDeletingPathExtension] stringByAppendingPathExtension:kAmrType];
+//    [VoiceConverter ConvertWavToAmr:recordPath amrSavePath:amrPath];
     if (recordFinish) {
         if (!flag) {
             recordPath = nil;

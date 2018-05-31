@@ -32,7 +32,7 @@
 #import "ICFileTool.h"
 #import "ICChatMessageSyeCell.h"
 #import "ICVoiceHud.h"
-#import "VoiceConverter.h"
+//#import "VoiceConverter.h"
 #import "ICVideoManager.h"
 #import "ICAVPlayer.h"
 #import "ICPhotoBrowserController.h"

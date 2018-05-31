@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFIMKit'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'A short description of FFIMKit.'
 
 # This description is used to generate tags and improve search results.
@@ -40,8 +40,8 @@ TODO: Add long description of the pod here.
       'FFIMKit' => ['FFIMKit/Assets/**/*']
   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Foundation', 'YYText','SDWebImage','RegexKitLite','Masonry','MJExtension'
-  s.libraries = 'libopencore-amrnb','libopencore-amrwb'
+#  s.frameworks = 'Foundation', 'YYText','SDWebImage','RegexKitLite','Masonry','MJExtension'
+#  s.libraries = 'libopencore-amrnb', 'libopencore-amrwb'
   s.dependency 'YYText'
   s.dependency 'SDWebImage'
   s.dependency 'RegexKitLite'
