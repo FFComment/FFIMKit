@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D73D03620B41BD70014D4D7 /* LinkagePushUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D73D03420B41BD70014D4D7 /* LinkagePushUIApplication.m */; };
-		2D73D03A20B41BF60014D4D7 /* libVwtSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D73D03820B41BF60014D4D7 /* libVwtSdk.a */; };
+		2D43688F20BFC0C900C30C28 /* LinkagePushUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D43688920BFC0C900C30C28 /* LinkagePushUIApplication.m */; };
+		2D43689020BFC0C900C30C28 /* libVwtSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D43688D20BFC0C900C30C28 /* libVwtSdk.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,11 +44,11 @@
 		153A76EFC5DD0A448CA0BF05 /* Pods-FFIMKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFIMKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFIMKit_Tests/Pods-FFIMKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2B0D1E5C775FDDC1697ADF78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2D427CAA20AEA25900BB6EC1 /* FFIMKit_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FFIMKit_Example.entitlements; sourceTree = "<group>"; };
-		2D73D03420B41BD70014D4D7 /* LinkagePushUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkagePushUIApplication.m; sourceTree = "<group>"; };
-		2D73D03520B41BD70014D4D7 /* LinkagePushUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkagePushUIApplication.h; sourceTree = "<group>"; };
-		2D73D03720B41BF50014D4D7 /* VwtIMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VwtIMLib.h; sourceTree = "<group>"; };
-		2D73D03820B41BF60014D4D7 /* libVwtSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVwtSdk.a; sourceTree = "<group>"; };
-		2D73D03920B41BF60014D4D7 /* VwtIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VwtIMMessage.h; sourceTree = "<group>"; };
+		2D43688920BFC0C900C30C28 /* LinkagePushUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkagePushUIApplication.m; sourceTree = "<group>"; };
+		2D43688A20BFC0C900C30C28 /* LinkagePushUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkagePushUIApplication.h; sourceTree = "<group>"; };
+		2D43688C20BFC0C900C30C28 /* VwtIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VwtIMMessage.h; sourceTree = "<group>"; };
+		2D43688D20BFC0C900C30C28 /* libVwtSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVwtSdk.a; sourceTree = "<group>"; };
+		2D43688E20BFC0C900C30C28 /* VwtIMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VwtIMLib.h; sourceTree = "<group>"; };
 		36BB47C4B0C23747DB224DCF /* Pods-FFIMKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFIMKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFIMKit_Example/Pods-FFIMKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		42E4C6B3234181980BD25C00 /* Pods_FFIMKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFIMKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		483DB37BE5B05DD139B1962E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				2D73D03A20B41BF60014D4D7 /* libVwtSdk.a in Frameworks */,
+				2D43689020BFC0C900C30C28 /* libVwtSdk.a in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				802A78C780B6A517B138C6C9 /* Pods_FFIMKit_Example.framework in Frameworks */,
@@ -115,22 +115,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2D427C9D20AD95A300BB6EC1 /* libLAPush */ = {
+		2D43688820BFC0C900C30C28 /* libLAPush */ = {
 			isa = PBXGroup;
 			children = (
-				2D73D03520B41BD70014D4D7 /* LinkagePushUIApplication.h */,
-				2D73D03420B41BD70014D4D7 /* LinkagePushUIApplication.m */,
-				2D427CA020AD95A300BB6EC1 /* libVwtSdk */,
+				2D43688B20BFC0C900C30C28 /* libVwtSdk */,
+				2D43688920BFC0C900C30C28 /* LinkagePushUIApplication.m */,
+				2D43688A20BFC0C900C30C28 /* LinkagePushUIApplication.h */,
 			);
 			path = libLAPush;
 			sourceTree = "<group>";
 		};
-		2D427CA020AD95A300BB6EC1 /* libVwtSdk */ = {
+		2D43688B20BFC0C900C30C28 /* libVwtSdk */ = {
 			isa = PBXGroup;
 			children = (
-				2D73D03820B41BF60014D4D7 /* libVwtSdk.a */,
-				2D73D03720B41BF50014D4D7 /* VwtIMLib.h */,
-				2D73D03920B41BF60014D4D7 /* VwtIMMessage.h */,
+				2D43688C20BFC0C900C30C28 /* VwtIMMessage.h */,
+				2D43688D20BFC0C900C30C28 /* libVwtSdk.a */,
+				2D43688E20BFC0C900C30C28 /* VwtIMLib.h */,
 			);
 			path = libVwtSdk;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 		6003F593195388D20070C39A /* Example for FFIMKit */ = {
 			isa = PBXGroup;
 			children = (
-				2D427C9D20AD95A300BB6EC1 /* libLAPush */,
+				2D43688820BFC0C900C30C28 /* libLAPush */,
 				6003F59C195388D20070C39A /* FFAppDelegate.h */,
 				6003F59D195388D20070C39A /* FFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -408,7 +408,7 @@
 			files = (
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
-				2D73D03620B41BD70014D4D7 /* LinkagePushUIApplication.m in Sources */,
+				2D43688F20BFC0C900C30C28 /* LinkagePushUIApplication.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
