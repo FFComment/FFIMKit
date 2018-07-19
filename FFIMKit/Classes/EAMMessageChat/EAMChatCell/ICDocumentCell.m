@@ -97,8 +97,8 @@
         _selectBtn = btn;
         NSString *App_select_dis = [FF_BoundlePath ff_imagePathWithName:@"App_select_dis" bundle:@"FFIMKit" targetClass:[self class] oftype:@"png"];
         NSString *App_select = [FF_BoundlePath ff_imagePathWithName:@"App_select" bundle:@"FFIMKit" targetClass:[self class] oftype:@"png"];
-        [_selectBtn setImage:[UIImage imageNamed:@"App_select_dis"] forState:UIControlStateNormal];
-        [_selectBtn setImage:[UIImage imageNamed:@"App_select"] forState:UIControlStateSelected];
+        [_selectBtn setImage:[UIImage imageWithContentsOfFile:App_select_dis] forState:UIControlStateNormal];
+        [_selectBtn setImage:[UIImage imageWithContentsOfFile:App_select] forState:UIControlStateSelected];
         [_selectBtn addTarget:self action:@selector(selectBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _selectBtn;
